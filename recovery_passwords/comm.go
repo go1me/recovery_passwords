@@ -9,7 +9,7 @@ import(
 
 type Browser_info struct{
 	Browser_path string
-	Need_or_not_to_recovery bool
+	Need_to_recovery bool
 }
 
 type Logins_table_struct struct{
