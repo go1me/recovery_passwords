@@ -15,3 +15,8 @@ c. 360 Browser
 ## Mail clients
 1. mailbird
 2. claws-mail
+## Ftp clients
+1. FTPGetter
+
+
+## To be continued...
