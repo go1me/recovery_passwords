@@ -37,6 +37,8 @@ only support windows system
     - CentBrowser  
     - Oribitum  
     - Edge  
+2. Mozilla
+    - Firfox
 ## Mail clients
 1. mailbird
 2. claws-mail
