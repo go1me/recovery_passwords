@@ -23,6 +23,7 @@ func main() {
 	result_map = merage_map(result_map, recovery_passwords.Recovery_passwords_mailbirds())  //ok
 	result_map = merage_map(result_map, recovery_passwords.Recovery_passwords_claswmails()) //ok
 	result_map = merage_map(result_map, recovery_passwords.Recovery_passwords_ftpgetters()) //ok
+	result_map = merage_map(result_map, recovery_passwords.Recovery_passwords_mozillas())   //not ok
 
 	fmt.Println(result_map)
 	fmt.Println("---------------------------------------")
